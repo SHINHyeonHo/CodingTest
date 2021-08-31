@@ -35,11 +35,8 @@ class Solution2 {
 			i++;
 		}
 		
-		if(!temp.equals("")) {
-			answer = temp;
-		} else { 
-			answer = participant[participant.length - 1];
-		}
+		if(!temp.equals(""))	answer = temp;
+		else 					answer = participant[participant.length - 1];
 		
 		return answer;
 	}
